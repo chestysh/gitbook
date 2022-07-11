@@ -1,0 +1,75 @@
+{
+  "title": "博客",
+  "description": "个人博客园",
+  "author": "yushenghai",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "开放平台": "http://e.cnpc.com.cn/opensdk/"
+    }
+  },
+  "styles":{
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "-livereload",
+    "-sharing",
+    "expandable-chapters",
+    "search-plus",
+    "splitter",
+    "github",
+    "-sharing",
+    "emphasize",
+    "include-codeblock",
+    "tbfed-pagefooter",
+    "back-to-top-button",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/webzhuyongbo"
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": false,
+      "whatsapp": false,
+      "all": [
+        "weibo","qq","qzone","google","douban"
+      ]
+    },
+    "anchor-navigation-ex": {
+      "associatedWithSummary":false,
+      "showLevel":true,
+      "multipleH1": true,
+      "mode": "float",
+
+      "pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "tbfed-pagefooter": {
+      "copyright": "&copy;chesty",
+      "modify_label": "文档更新时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}
