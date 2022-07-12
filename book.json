@@ -5,7 +5,7 @@
   "language": "zh-hans",
   "links": {
     "sidebar": {
-      "开放平台": "http://e.cnpc.com.cn/opensdk/"
+      "官网": "http://e.cnpc.com.cn/opensdk/"
     }
   },
   "styles":{
@@ -29,7 +29,7 @@
   ],
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/webzhuyongbo"
+      "url": "https://github.com/chestysh"
     },
     "sharing": {
       "douban": false,
